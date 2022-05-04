@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll CSS</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+            background-image: url(https://wallpaperaccess.com/full/1550310.jpg);
+        }
+        a{
+            display: inline-block;
+            width: auto;
+            text-decoration: none;
+            font-size: 0.7cm;
+            color: white;
+    }
+    nav, scroll-container{
+     display: block;
+     margin: 0 auto;
+     text-align: center; 
+     color: white; 
+    }
+    nav{
+        width: 600px;
+        padding: 5px;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    scroll-container{
+        width: 800px;
+        height: auto;
+        position: relative;
+    }
+    scroll-page{
+        border: 2px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        font-size: 0.7cm;
+        margin: 15px;
+        background: transparent;
+        border-radius: 10px;
+        color: white;
+    }
+    #topo{
+        position: absolute;
+        bottom: 15px;
+        right: 25px;
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#page-1">O que é o D.?</a> |
+        <a href="#page-2">Monkey D. Luffy</a> |
+        <a href="#page-3">Teoria sobre o One Piece</a> 
+    </nav>
+    <scroll-container>
+        <scroll-page id="page-1">
+         <h2> D.</h2> <hr>
+         O D. pode referir-se a civilização perdida que existia durante o século Vazio e foi exterminada pelo grupo que um dia se tornaria o Governo Mundial a Realeza maior. O maior mistério de “D.” é que a maioria daqueles que carregam o “D.” em seus nomes, desconhecem seu verdadeiro significado. 
+
+         Quando Barba Branca estava discutindo a “Vontade de D.”, ele mencionou One Piece na mesma declaração, o que implica que “D.” e One Piece podem ter uma conexão ao invés de ser apenas um simples tesouro escondido por Gol D. Roger.
+         
+         
+        </scroll-page>
+        <scroll-page id="page-2">
+         <h2>Luffy</h2><hr>
+         Ele é apresentado como um jovem cujo corpo ganha as propriedades de borracha após ter comido a Gomu-Gomu no Mi, uma das várias frutas amaldiçoadas conhecidas como Akuma no Mi ou Frutas do Diabo. Em busca de seu sonho de ser o Rei dos Piratas, Luffy navega pelo mundo procurando o lendário tesouro One Piece que foi deixado por Gol D. Roger, o antigo Rei dos Piratas. Alegre e aventureiro, Luffy cria seu próprio bando chamado os Piratas do Chapéu de Palha e eles são constantemente antagonizados pela marinha do Governo Mundial. Em batalha, Luffy usa a elasticidade de seu corpo para se esticar e lutar.
+        </scroll-page>
+        <scroll-page id="page-3">
+         <h2>Teoria</h2><hr>
+         Trazendo a paz mundial, as Armas Antigas e o All Blue em uma única embalagem, alguns fãs pensam que o One Piece poderia muito bem ser um mundo unificado. Usando as Armas Antigas, pode-se destruir a seção dos funis da Red Line entre todos os mares e a Grand Line.
+
+Fazer isso conectaria todos os mares ao “All Blue” e o mundo inteiro ao “One Piece”. Isso criaria unidade, se não pelo menos, uma melhor viagem entre reinos, mas também significa a destruição da Terra Santa do Dragão Celestial, Mariejois, motivo pelo qual o Governo Mundial está tão preocupado com o fato de as pessoas descobrirem a idéia.
+           </scroll-page> 
+    </scroll-container>
+   <a id="topo" href="#top">Home</a>
+</body>
+</html>
